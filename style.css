@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+}
+
+canvas{
+  border: 1px solid black;
+}
+
+
+.penDiv {
+  position: fixed;
+  left: 150px;
+  top: 65px;
+}
+
+#pen{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+#pen_body{
+  position:absolute;
+  left: 42px;
+  top: 20px;
+}
+
+#drawing_board{
+  position: fixed;
+  left: 500px;
+  top: 200px;
+
+  border: 10px solid black;  /* #FCFC6A - yellow */
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+#btn {
+  position: fixed;
+  right: 50px;
+  top: 300px;
+}
